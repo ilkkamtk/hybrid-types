@@ -24,7 +24,7 @@ type UserDeleteResponse = MessageResponse & {
 };
 
 type AvailableResponse = Partial<MessageResponse> & {
-  available?: boolean;
+  available: boolean;
 };
 
 type BooleanResponse = MessageResponse & {
